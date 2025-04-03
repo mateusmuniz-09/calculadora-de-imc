@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a88c6767;
+}
+.container {
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 0 10px #696969a6;
+  border-radius: 10px;
+}
+.container-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.box-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: relative;
+}
+.box-input label,
+label {
+  font-weight: 500;
+  padding: 5px;
+  color: #2f4f4f;
+}
+.box-input input {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 5px 5px #00000063;
+}
+.box-input input:focus {
+  border: 1px solid #4e8fe4;
+}
+.box-input input::placeholder {
+  text-align: left;
+  font-size: 10px;
+}
+
+.container-input button {
+  margin-top: 20px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #69645f;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 5px 5px #00000063;
+}
+.container-input button:hover {
+  background-color: #7893b6;
+}
+.box-resultado {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 500;
+  color: #2f4f4f;
+}
+.box-resultado .resultado {
+  width: 300px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 5px #00000063;
+}
+.imc {
+  width: 60px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 5px 5px #00000063;
+}
+#btn-limpar {
+  margin-top: 15px;
+  padding: 8px 8px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #00000063;
+  transition: 0.3s ease-in-out;
+}
+#btn-limpar:hover {
+  background-color: #e72a09;
+}
