@@ -10,9 +10,19 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #a88c6767;
+}
+h2 {
+  padding: 10px;
+  text-align: center;
+  color: #2f4f4f;
+}
+p {
+  font-weight: 600;
+  color: #2f4f4f56;
 }
 .container {
   max-width: 400px;
@@ -64,13 +74,13 @@ label {
   padding: 8px 10px;
   border-radius: 8px;
   border: none;
-  background-color: #69645f;
+  background-color: #7893b6;
   color: #fff;
   transition: 0.3s ease-in-out;
   box-shadow: 0 5px 5px #00000063;
 }
 .container-input button:hover {
-  background-color: #7893b6;
+  background-color: #4673ad;
 }
 .box-resultado {
   display: flex;
@@ -94,8 +104,8 @@ label {
   box-shadow: 0 5px 5px #00000063;
 }
 .imc {
-  width: 60px;
-  height: 30px;
+  width: 80px;
+  height: 50px;
   background-color: #fff;
   border-radius: 8px;
   text-align: center;
